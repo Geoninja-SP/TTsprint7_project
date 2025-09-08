@@ -7,7 +7,7 @@ import streamlit as st
 st.header("📊 Análisis de anuncios de vehículos")
 
 car_data = pd.read_csv(
-    "C:/Users/spaub/Documents/Tripleten/Sprint7/Proyecto/vehicles_us.csv")
+    "vehicles_us.csv")
 # crear un botón para el histograma
 hist_button = st.button('Construir histograma')
 
